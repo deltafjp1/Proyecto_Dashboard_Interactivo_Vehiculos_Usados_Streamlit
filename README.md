@@ -1,9 +1,19 @@
-Este repositorio contiene el proyecto final del sprint 7 Este proyecto utiliza Streamlit, Pandas y Plotly Express para crear una aplicación web interactiva que permite visualizar la cantidad de kilómetros recorridos (odómetro) por vehículos usados en Estados Unidos. El archivo app.py realiza lo siguiente:
 
-Carga el conjunto de datos vehicles.csv, que contiene información sobre anuncios de venta de coches usados en EE.UU.
+# Vehicles EDA App (Streamlit)
 
-Muestra un título y un encabezado en la interfaz.
+🔗 **Live demo:** https://proyecto-sprint-7-2p3r.onrender.com/
 
-Permite al usuario construir un histograma interactivo que representa la distribución de los kilómetros recorridos (odometer) por los vehículos.
+Aplicación web para explorar el dataset `vehicles_us.csv` y acelerar el análisis exploratorio (EDA). Permite revisar distribución de kilometraje (odometer) y la relación **precio vs. kilometraje** con gráficos interactivos para identificar tendencias y outliers.
 
-Después de mostrar el histograma inicial, ofrece una casilla de verificación para reconstruir el histograma si se desea visualizarlo nuevamente.
+## Features
+- Limpieza/preparación básica con **pandas**
+- Visualizaciones interactivas con **Plotly Express**
+- Exploración rápida self-service (histograma + scatter)
+
+## Tech Stack
+**Python**, **Streamlit**, **pandas**, **Plotly Express**
+
+## Run locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
