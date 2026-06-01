@@ -5,10 +5,9 @@
 
 ---
 
-## Demo / Live App
 
-🔗 [Abrir aplicación / Open app](https://proyecto-sprint-7-2p3r.onrender.com/)
-
+[Ver app / View app](https://proyecto-sprint-7-2p3r.onrender.com/)  
+[Ver repositorio / View repository](https://github.com/deltafjp1/Proyecto_Dashboard_Interactivo_Vehiculos_Usados_Streamlit)
 ---
 
 ## Descripción / Overview
